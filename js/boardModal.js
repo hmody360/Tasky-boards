@@ -27,5 +27,5 @@ const generateBG = async () => {
 };
 
 const setDefaultBackground = () => {
-    modalBackgroundImg.style.backgroundImage = `url("/images/default-bg.avif")`;
+    modalBackgroundImg.style.backgroundImage = `url("images/default-bg.avif")`;
 };

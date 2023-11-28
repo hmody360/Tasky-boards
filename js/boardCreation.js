@@ -18,7 +18,7 @@ const createBoard = () => {
             const board = document.createElement("a");
             board.className = "board-tab";
             board.id = allocateID();
-            board.href = "/html/boardPage.html";
+            board.href = "https://hmody360.github.io/Tasky-boardPage/";
             board.style.backgroundImage = modalBackgroundImg.style.backgroundImage;
             board.innerHTML = `<label>${boardName.value}</label><i class="fa-solid fa-trash" id="delete-board"></i>`;
             boardContainer.appendChild(board);

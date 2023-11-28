@@ -77,7 +77,7 @@ const PullObjFromStorage = () => {
                 const board = document.createElement("a");
                 board.className = "board-tab";
                 board.id = Obj.id;
-                board.href = "/html/boardPage.html";
+                board.href = "https://hmody360.github.io/Tasky-boardPage/";
                 board.style.backgroundImage = Obj.bg;
                 board.innerHTML = `<label>${Obj.name}</label><i class="fa-solid fa-trash" id="delete-board"></i>`;
                 boardContainer.appendChild(board);
