@@ -28,6 +28,7 @@ const createBoard = () => {
             setDefaultBackground();
             const boardList = document.querySelectorAll(".board-tab");
             setActiveBoard(boardList);
+            removeBoard(boardList)
         }
     });
 };
