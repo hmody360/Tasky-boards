@@ -27,8 +27,9 @@ const createBoard = () => {
             modalContainer.style.display = "none";
             setDefaultBackground();
             const boardList = document.querySelectorAll(".board-tab");
+            const deleteBoard = document.querySelectorAll("#delete-board");
             setActiveBoard(boardList);
-            removeBoard(boardList)
+            removeBoard(deleteBoard)
         }
     });
 };
